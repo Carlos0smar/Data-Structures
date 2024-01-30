@@ -1,5 +1,6 @@
 package cova.datastructures.linkedlists.linkedlist;
 
+
 public interface ILinkedList {
     int size();
     boolean isEmpty();

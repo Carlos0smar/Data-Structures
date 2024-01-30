@@ -1,13 +1,0 @@
-
-r
-java:S1104"PMake list a static final constant or non-public and provide accessors if needed.(…’åìÿÿÿÿÿ8äşÓÕ1
-G	java:S106"+Replace this use of System.out by a logger.(ƒÖÖç8åşÓÕ1
->	java:S131!""Add a default case to this switch.(½ºÙò8ŸåşÓÕ1
-G	java:S106#"+Replace this use of System.out by a logger.(œ÷—·8¢åşÓÕ1
-G	java:S106("+Replace this use of System.out by a logger.(œ÷—·8ªåşÓÕ1
-G	java:S106="+Replace this use of System.out by a logger.(ƒ–¿ï8¶åşÓÕ1
-L	java:S106>"+Replace this use of System.out by a logger.(û„¤›ùÿÿÿÿ8¹åşÓÕ1
-G	java:S106?"+Replace this use of System.out by a logger.(¸ï¤8¾åşÓÕ1
-L	java:S106@"+Replace this use of System.out by a logger.(›Ë«®ıÿÿÿÿ8ÁåşÓÕ1
-G	java:S106A"+Replace this use of System.out by a logger.(Œéş‡8ÄåşÓÕ1
-G	java:S106B"+Replace this use of System.out by a logger.(¨õİÀ8ÇåşÓÕ1
