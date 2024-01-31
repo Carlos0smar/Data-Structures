@@ -1,2 +1,6 @@
 
 L	java:S106e"+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8±ÄêÔÕ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(±ÔĞ¶ùÿÿÿÿ8”ëÁşÕ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ïóÈöøÿÿÿÿ8•ëÁşÕ1

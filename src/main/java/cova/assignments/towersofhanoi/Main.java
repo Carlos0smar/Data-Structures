@@ -5,9 +5,9 @@ public class Main {
     static String medium = "  #######";
     static String small = "    ####";
 
-    static LinkedList<String> firstRod = new LinkedList<>();
-    static LinkedList<String> secondRod = new LinkedList<>();
-    static LinkedList<String> thirdRod = new LinkedList<>();
+    static LinkedListStack<String> firstRod = new LinkedListStack<>();
+    static LinkedListStack<String> secondRod = new LinkedListStack<>();
+    static LinkedListStack<String> thirdRod = new LinkedListStack<>();
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package cova.assignments.towersofhanoi;
 
-public class LinkedList<E> implements IList<E>{
+public class LinkedListStack<E> implements IStack<E> {
     Node<E> head;
     @Override
     public int size() {
