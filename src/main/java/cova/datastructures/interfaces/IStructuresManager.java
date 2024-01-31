@@ -1,5 +1,10 @@
 package cova.datastructures.interfaces;
 
-public interface IMenu {
+import java.util.Random;
+
+public interface IStructuresManager {
+
     void printMenu();
+    void options(int optionSelected);
+
 }

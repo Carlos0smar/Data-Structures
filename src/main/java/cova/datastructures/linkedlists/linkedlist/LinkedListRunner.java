@@ -1,14 +1,14 @@
 package cova.datastructures.linkedlists.linkedlist;
 
+import cova.datastructures.NullRunner;
 import cova.datastructures.interfaces.IRunner;
-import cova.datastructures.interfaces.IMenu;
-import cova.datastructures.interfaces.IOptions;
+import cova.datastructures.interfaces.IStructuresManager;
 
 
 import java.util.Scanner;
 
 
-public class LinkedListRunner implements IRunner, IMenu, IOptions {
+public class LinkedListRunner implements IRunner, IStructuresManager {
 
     public LinkedList list = new LinkedList();
     boolean exit = false;
@@ -32,12 +32,12 @@ public class LinkedListRunner implements IRunner, IMenu, IOptions {
 
         switch (optionValue) {
             case 1:
-                System.out.println("Introduce a number to add at list");
+                System.out.println("Introduce a number to add to the list");
                 value = inputValue().nextInt();
                 list.addFirst(value);
                 break;
             case 2:
-                System.out.println("Introduce a number to add at list");
+                System.out.println("Introduce a number to add to the list");
                 value = inputValue().nextInt();
                 list.addLast(value);
                 break;
@@ -52,6 +52,9 @@ public class LinkedListRunner implements IRunner, IMenu, IOptions {
                 break;
             case 6:
                 exit = true;
+                break;
+            default:
+                System.out.println("Invalid option");
                 break;
         }
     }

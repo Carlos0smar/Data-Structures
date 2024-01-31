@@ -41,5 +41,6 @@ public class Main {
         System.out.println("6. 1 Sorting");
         System.out.println("7. 2 Sorting");
         System.out.println("8. 3 Sorting");
+        System.out.println("9. Exit");
     }
 }

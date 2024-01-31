@@ -1,12 +1,13 @@
 package cova.datastructures.linkedlists.doublylinkedlist;
 
-public class Node<T> {
+public class DoubleEdgeNode<T> {
     T data;
-    Node<T> prev;
-    Node<T> next;
+    DoubleEdgeNode<T> prev;
+    DoubleEdgeNode<T> next;
 
-    public Node(T data) {
+    public DoubleEdgeNode(T data) {
         this.data = data;
+        this.prev = null;
         this.next = null;
     }
 }
