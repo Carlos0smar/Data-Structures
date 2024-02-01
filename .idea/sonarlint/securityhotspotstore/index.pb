@@ -38,8 +38,6 @@ h
 8src/main/java/cova/assignments/towersofhanoi/IStack.java,7\b\7b39d2954b1624af0e57939239bfc7f480c0b083
 q
 Asrc/main/java/cova/assignments/towersofhanoi/LinkedListStack.java,3\f\3f3c71ea861a95719108d03531876ad7e8086a0d
-x
-Hsrc/main/java/cova/datastructures/linkedlists/doublylinkedlist/Node.java,b\d\bd75a6b2ff6d363da05c30107930ce9043ca1322
 „
 Tsrc/main/java/cova/datastructures/linkedlists/doublylinkedlist/DoublyLinkedList.java,8\1\81af27a900ed95e09aa44bb30183b3e7e648a060
 …

@@ -1,7 +1,5 @@
 package cova.datastructures.linkedlists.doublylinkedlist;
 
-import cova.datastructures.linkedlists.linkedlist.Node;
-
 public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
 
     private DoubleEdgeNode<E> head;
@@ -9,14 +7,12 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
 
     public DoublyLinkedList() {
 
-        DoubleEdgeNode<E> head = new DoubleEdgeNode<>(null);
-        DoubleEdgeNode<E> tail = new DoubleEdgeNode<>(null);
+        this.head = new DoubleEdgeNode<>(null);
+        this.tail = new DoubleEdgeNode<>(null);
 
-        head.next = tail;
-        tail.prev = head;
+        this.head.next = this.tail;
+        this.tail.prev = this.head;
 
-        this.head = null;
-        this.tail = null;
     }
     @Override
     public int size() {
@@ -39,11 +35,17 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
 
     @Override
     public E first() {
+        if(isEmpty()){
+            System.out.println("List is empty");
+        }
         return head.next.data;
     }
 
     @Override
     public E last() {
+        if(isEmpty()){
+            System.out.println("List is empty");
+        }
         return tail.prev.data;
     }
 
@@ -78,19 +80,28 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
 
     @Override
     public void removeFirst() {
+        if(isEmpty()){
+            System.out.println("List is empty");
+        }
         head.next = head.next.next;
         head.next.prev = head;
     }
 
     @Override
     public void removeLast() {
+        if(isEmpty()){
+            System.out.println("List is empty");
+        }
         tail.prev = tail.prev.prev;
         tail.prev.next = tail;
     }
 
     public void printList() {
+        if(isEmpty()){
+            System.out.println("List is empty");
+        }
         DoubleEdgeNode<E> current = head.next;
-        while (current != null) {
+        while (current.data != null) {
             System.out.println(current.data);
             current = current.next;
         }

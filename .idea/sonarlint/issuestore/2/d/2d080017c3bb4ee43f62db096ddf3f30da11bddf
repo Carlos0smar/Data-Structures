@@ -1,5 +1,10 @@
 
-L	java:S106e"+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8±ÄêÔÕ1
+p
+java:S1192M"NDefine a constant instead of duplicating this literal "List is empty" 3 times.(ˆê‹¼ùÿÿÿÿ8ªá³©Ö1
+L	java:S106M"+Replace this use of System.out by a logger.(ˆê‹¼ùÿÿÿÿ8±ÄêÔÕ1
+L	java:S106V"+Replace this use of System.out by a logger.(ˆê‹¼ùÿÿÿÿ8•ç²©Ö1
+L	java:S106h"+Replace this use of System.out by a logger.(ˆê‹¼ùÿÿÿÿ8Á§³©Ö1
+L	java:S106l"+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8¾á³©Ö1
 v
 java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(±ÔÐ¶ùÿÿÿÿ8”ëÁþÕ1
 v
