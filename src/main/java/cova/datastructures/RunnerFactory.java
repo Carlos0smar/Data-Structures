@@ -3,6 +3,7 @@ package cova.datastructures;
 import cova.datastructures.interfaces.IRunner;
 import cova.datastructures.linkedlists.GeneralLinkedListsRunner;
 import cova.datastructures.linkedlists.linkedlist.LinkedListRunner;
+import cova.datastructures.stacks.LinkedListStackRunner;
 
 public class RunnerFactory {
     public RunnerFactory() {
@@ -14,8 +15,7 @@ public class RunnerFactory {
             case 1:
                 return new GeneralLinkedListsRunner();
             case 2:
-                //TODO
-                return new NullRunner();
+                return new LinkedListStackRunner();
             case 3:
                 //TODO
                 return new NullRunner();
