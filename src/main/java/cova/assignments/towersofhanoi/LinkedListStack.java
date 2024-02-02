@@ -2,6 +2,8 @@ package cova.assignments.towersofhanoi;
 
 public class LinkedListStack<E> implements IStack<E> {
     Node<E> head;
+    String name;
+
     @Override
     public int size() {
         if (isEmpty()) {
@@ -58,5 +60,13 @@ public class LinkedListStack<E> implements IStack<E> {
             System.out.println(current.data);
             current = current.next;
         }
+    }
+
+    public void setRodName(String inputName){
+        name = inputName;
+    }
+
+    public String getRodName(){
+        return name;
     }
 }
