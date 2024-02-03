@@ -58,14 +58,6 @@ b
 2src/main/java/cova/datastructures/stacks/Node.java,5\6\565ed7678161366935cd9ee21d739d9b6aa5571b
 o
 ?src/main/java/cova/assignments/towersofhanoi/TowersOfHanoi.java,1\6\1619e35252f7520de77503a20dc5c6e2f3b14e44
-f
-6src/main/java/cova/datastructures/queues/IDequeue.java,6\c\6c9eb59bd26be57fed8a440b04a943c35c369c0e
-u
-Esrc/main/java/cova/datastructures/queues/DoublyLinkedListDequeue.java,9\3\9348099671d00985ada34efe44109c96a1fe92dc
-{
-Ksrc/main/java/cova/datastructures/queues/DoublyLinkedLIstDequeueRunner.java,6\a\6a2aab1b939bbdadce129564dae9128eac6b4d25
-l
-<src/main/java/cova/datastructures/queues/DoubleEdgeNode.java,f\b\fb335574c11a5474548d69dcc61e6ca776f39323
 
 ]src/main/java/cova/datastructures/queues/doublylinkedlistdequeue/DoublyLinkedListDequeue.java,1\8\18c1c84a7d6036c865463c767adcfce7d6790ef3
 „
@@ -82,3 +74,11 @@ r
 Bsrc/main/java/cova/datastructures/queues/linkedlistqueue/Node.java,1\6\16b82a0bbce15f8820ddd85d6b8a0f31ea7acfa6
 z
 Jsrc/main/java/cova/datastructures/queues/GeneralLinkedListQueueRunner.java,3\a\3ae441b342efa24d5dfd4e78d490ff90cfc1442f
+s
+Csrc/test/java/linkedliststests/linkedlisttests/LinkedLIstTests.java,b\4\b4f0359326168f652808c3963cc2f56436d17470
+y
+Isrc/test/java/linkedliststests/linkedlisttests/DoublyLinkedListTests.java,f\0\f0e25cd286b607ded521f20fd4f889c5f5f9c6bd
+i
+9src/test/java/linkedliststests/DoublyLinkedListTests.java,5\b\5bd1f52413d56f2bf461093f5706ea2ecb658b5a
+c
+3src/test/java/linkedliststests/LinkedLIstTests.java,1\1\110cba39d61ce9bf03b91cf05fde80cbdeb55abc
