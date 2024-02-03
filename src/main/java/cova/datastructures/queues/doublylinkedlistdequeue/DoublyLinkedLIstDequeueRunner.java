@@ -1,4 +1,4 @@
-package cova.datastructures.queues;
+package cova.datastructures.queues.doublylinkedlistdequeue;
 
 import cova.datastructures.interfaces.IRunner;
 import cova.datastructures.interfaces.IStructuresManager;

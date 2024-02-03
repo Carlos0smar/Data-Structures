@@ -1,4 +1,4 @@
-package cova.datastructures.queues;
+package cova.datastructures.queues.doublylinkedlistdequeue;
 
 public class DoubleEdgeNode<T> {
     T data;
