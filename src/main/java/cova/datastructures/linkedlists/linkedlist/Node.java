@@ -1,7 +1,7 @@
 package cova.datastructures.linkedlists.linkedlist;
 
 public class Node {
-    int data;
+    public int data;
     Node next;
 
     public Node(int data) {
