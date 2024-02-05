@@ -25,10 +25,12 @@ public class DoublyLinkedListRunner<T> implements IRunner, IStructuresManager {
     public void printMenu() {
         System.out.println("1. Add first");
         System.out.println("2. Add last");
-        System.out.println("3. Remove first");
-        System.out.println("4. Remove last");
-        System.out.println("5. Print list");
-        System.out.println("6. Exit");
+        System.out.println("3. show first");
+        System.out.println("4. show last");
+        System.out.println("5. Remove first");
+        System.out.println("6. Remove last");
+        System.out.println("7. Print list");
+        System.out.println("8. Exit");
 
     }
 
@@ -47,15 +49,21 @@ public class DoublyLinkedListRunner<T> implements IRunner, IStructuresManager {
                 doublyList.addLast(value);
                 break;
             case 3:
-                doublyList.removeFirst();
+                doublyList.first();
                 break;
             case 4:
-                doublyList.removeLast();
+                doublyList.last();
                 break;
             case 5:
-                doublyList.printList();
+                doublyList.removeFirst();
                 break;
             case 6:
+                doublyList.removeLast();
+                break;
+            case 7:
+                doublyList.printList();
+                break;
+            case 8:
                 exit = true;
                 break;
             default:

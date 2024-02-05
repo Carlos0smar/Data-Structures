@@ -30,6 +30,7 @@ public class LinkedListQueueRunner implements IRunner, IStructuresManager {
     @Override
     public void options(int optionSelected) {
         int value;
+        int retorn;
         switch (optionSelected) {
             case 1:
                 System.out.println("Enter a number");
@@ -37,13 +38,13 @@ public class LinkedListQueueRunner implements IRunner, IStructuresManager {
                 linkedListQueue.enqueue(value);
                 break;
             case 2:
-                System.out.println("The first element is: " + linkedListQueue.first());
+                linkedListQueue.first();
                 break;
             case 3:
-                System.out.println("The size of the queue is: " + linkedListQueue.size());
+                linkedListQueue.size();
                 break;
             case 4:
-                System.out.println("The element " + linkedListQueue.dequeue() + " was deleted");
+                linkedListQueue.dequeue();
                 break;
             case 5:
                 linkedListQueue.printQueue();

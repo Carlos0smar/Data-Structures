@@ -20,7 +20,6 @@ public class LinkedListQueue<E> implements IQueue<E> {
 
     @Override
     public boolean isEmpty() {
-
         return head == null;
     }
 
@@ -43,6 +42,7 @@ public class LinkedListQueue<E> implements IQueue<E> {
     public E dequeue() {
         if(isEmpty()){
             System.out.println("The queue is empty");
+            return null;
         }
         Node<E> current = head;
         head = current.next;
@@ -51,6 +51,10 @@ public class LinkedListQueue<E> implements IQueue<E> {
 
     @Override
     public E first() {
+        if(isEmpty()){
+            System.out.println("The queue is empty");
+            return null;
+        }
         return head.data;
     }
 

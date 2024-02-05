@@ -75,6 +75,7 @@ public class LinkedList implements ILinkedList {
     public void removeFirst() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return;
         }
         Node current = head;
         head = current.next;
@@ -84,6 +85,7 @@ public class LinkedList implements ILinkedList {
     public void removeLast() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return;
         }
         Node current = head;
         Node lastCurrent = head;
@@ -102,6 +104,7 @@ public class LinkedList implements ILinkedList {
     public void print() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return;
         }
         Node current = head;
         while (current != null) {

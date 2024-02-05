@@ -45,6 +45,7 @@ public class LinkedListStack<T> implements IStack<T>{
     public T pop() {
         if (isEmpty()){
             System.out.println("The Stack is empty");
+            return null;
         }
         Node<T> current = head;
         Node<T> lastCurrent = head;

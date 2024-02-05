@@ -37,6 +37,7 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
     public E first() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return null;
         }
         return head.next.data;
     }
@@ -45,6 +46,7 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
     public E last() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return null;
         }
         return tail.prev.data;
     }
@@ -82,6 +84,7 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
     public void removeFirst() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return;
         }
         head.next = head.next.next;
         head.next.prev = head;
@@ -91,6 +94,7 @@ public class DoublyLinkedList<E> implements IDoublyLinkedList<E>{
     public void removeLast() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return;
         }
         tail.prev = tail.prev.prev;
         tail.prev.next = tail;
