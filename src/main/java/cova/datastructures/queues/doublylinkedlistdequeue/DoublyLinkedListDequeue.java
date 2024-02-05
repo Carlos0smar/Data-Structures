@@ -66,9 +66,10 @@ public class DoublyLinkedListDequeue<E> implements IDequeue<E> {
     public E removeFirst() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return null;
         }
-        head.next = head.next.next;
         E returnValue = head.next.data;
+        head.next = head.next.next;
         head.next.prev = head;
 
         return returnValue;
@@ -78,9 +79,10 @@ public class DoublyLinkedListDequeue<E> implements IDequeue<E> {
     public E removeLast() {
         if(isEmpty()){
             System.out.println("List is empty");
+            return null;
         }
-        tail.prev = tail.prev.prev;
         E returnValue = tail.prev.data;
+        tail.prev = tail.prev.prev;
         tail.prev.next = tail;
         return returnValue;
     }
