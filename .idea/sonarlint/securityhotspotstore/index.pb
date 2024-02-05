@@ -80,3 +80,13 @@ c
 3src/test/java/linkedliststests/LinkedLIstTests.java,1\1\110cba39d61ce9bf03b91cf05fde80cbdeb55abc
 ~
 Nsrc/main/java/cova/datastructures/queues/doublylinkedlistdequeue/IDequeue.java,8\4\84b91c7d0bbc5d4de36fd250f09b26565bdf91ec
+;
+gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
+Y
+)src/test/java/queuestests/QueueTests.java,1\5\15d82fb266c51654433b949f0ed57f2f130c03c3
+\
+,src/test/java/queuestests/DequeuesTests.java,0\8\08296b3b94948e5bfbb2946a2749c7ac79b80468
+Z
+*src/test/java/stackstests/StacksTests.java,7\a\7a6ddf7585cef141d90cc6928ed459bc52b8d003
+[
++src/test/java/queuestests/DequeueTests.java,9\6\965c44e233eb1aef172b40d7097cfa85596dea44

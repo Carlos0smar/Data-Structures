@@ -68,6 +68,13 @@ public class DoublyLinkedListTests {
         Assertions.assertEquals(1, list.first());
     }
 
+    //Testing the first element of the list, whether the list is empty
+    @Test
+    public void onFirstElementOfEmptyList() {
+        IDoublyLinkedList<Integer> list = new DoublyLinkedList<>();
+        Assertions.assertNull(list.first());
+    }
+
     //Testing the last element of the list
     @Test
     public void onAddTwoElementsLastIsTwo() {
@@ -75,6 +82,13 @@ public class DoublyLinkedListTests {
         list.addFirst(1);
         list.addLast(2);
         Assertions.assertEquals(2, list.last());
+    }
+
+    //Testing the first element of the list, whether the list is empty
+    @Test
+    public void onLastElementOfEmptyList() {
+        IDoublyLinkedList<Integer> list = new DoublyLinkedList<>();
+        Assertions.assertNull(list.last());
     }
 
     //Testing removal of first element
@@ -88,9 +102,9 @@ public class DoublyLinkedListTests {
 
     }
 
-    //Testing removal of first element
+    //Testing removal of last element
     @Test
-    public void onRemovalOfLastElement(){
+    public void onRemovalOfLastElement() {
         IDoublyLinkedList<Integer> list = new DoublyLinkedList<>();
         list.addFirst(1);
         list.addLast(2);
@@ -98,4 +112,5 @@ public class DoublyLinkedListTests {
         list.removeLast();
         Assertions.assertNotEquals(3, list.last());
     }
+
 }
