@@ -5,6 +5,8 @@ import cova.datastructures.linkedlists.GeneralLinkedListsRunner;
 import cova.datastructures.queues.GeneralLinkedListQueueRunner;
 import cova.datastructures.queues.doublylinkedlistdequeue.DoublyLinkedLIstDequeueRunner;
 import cova.datastructures.stacks.LinkedListStackRunner;
+import cova.datastructures.trees.BinaryTree;
+import cova.datastructures.trees.BinaryTreeRunner;
 
 public class RunnerFactory {
     public RunnerFactory() {
@@ -20,8 +22,7 @@ public class RunnerFactory {
             case 3:
                 return new GeneralLinkedListQueueRunner();
             case 4:
-                //TODO
-                return new NullRunner();
+                return new BinaryTreeRunner();
             case 5:
                 //TODO
                 return new NullRunner();
