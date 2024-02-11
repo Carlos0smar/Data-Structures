@@ -84,9 +84,19 @@ Nsrc/main/java/cova/datastructures/queues/doublylinkedlistdequeue/IDequeue.java
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 Y
 )src/test/java/queuestests/QueueTests.java,1\5\15d82fb266c51654433b949f0ed57f2f130c03c3
-\
-,src/test/java/queuestests/DequeuesTests.java,0\8\08296b3b94948e5bfbb2946a2749c7ac79b80468
 Z
 *src/test/java/stackstests/StacksTests.java,7\a\7a6ddf7585cef141d90cc6928ed459bc52b8d003
 [
 +src/test/java/queuestests/DequeueTests.java,9\6\965c44e233eb1aef172b40d7097cfa85596dea44
+c
+3src/main/java/cova/datastructures/trees/BTNode.java,9\2\92140b757693ac7bf9e8ac1c5418f223ece92404
+h
+8src/main/java/cova/datastructures/trees/IBinaryTree.java,d\a\daa8f48f695871d2633c539ae360187e8aeac01f
+g
+7src/main/java/cova/datastructures/trees/BinaryTree.java,1\f\1fb432fae9a72f078a89e06322867bd96b3844ae
+i
+9src/main/java/cova/assignments/bubblesort/BubbleSort.java,0\5\05faa359c985fcac3fbc6121ec38e8363dbade10
+V
+&src/test/java/treetests/TreeTests.java,e\4\e4c81795e0e0446b59d308486494fc0c39208fb2
+m
+=src/main/java/cova/datastructures/trees/BinaryTreeRunner.java,f\7\f7848afc062a676b772cb2fe56557474e6cc3050
