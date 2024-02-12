@@ -38,9 +38,9 @@ public class Main {
         System.out.println("3. Queues");
         System.out.println("4. Trees");
         System.out.println("5. Graphs");
-        System.out.println("6. 1 Sorting");
-        System.out.println("7. 2 Sorting");
-        System.out.println("8. 3 Sorting");
+        System.out.println("6. Merge Sort");
+        System.out.println("7. Quick Sort");
+        System.out.println("8. Bubble Sort");
         System.out.println("9. Exit");
     }
 }
