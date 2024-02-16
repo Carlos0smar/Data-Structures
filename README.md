@@ -132,4 +132,24 @@ Test cases for binary search tree:
 
 </details>
 
+<details>
+<summary style="font-size: 20px;"> Graph </summary>
+
+<!-- ## Graph -->
+
+This data structure is a collection of nodes, where each node has a reference to the other nodes in the graph. The graph can be directed or undirected.
+
+<img src="images/graphs.png" alt="Alt text" width="150" height="150" style="margin-left:250px;"/>
+
+Graph implementation:
+
+- Link:
+- Route:
+
+Test cases for graph:
+
+- Link:
+- Route:
+
+</details>
 
