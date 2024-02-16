@@ -153,3 +153,33 @@ Test cases for graph:
 
 </details>
 
+<details>
+<summary style="font-size: 20px;"> Sorting Algorithms </summary>
+
+<!-- ## Sorting Algorithms -->
+
+### Merge Sort
+
+This algorithm is a divide and conquer algorithm that was invented by John von Neumann in 1945. It is a comparison-based algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+- Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/mergesort
+- Route: Data-Structures/tree/main/src/main/java/cova/datastructures/mergesort
+- Test cases: https://github.com/Carlos0smar/Data-Structures/blob/main/src/test/java/sortingtests/MergeSortTests.java
+
+### Quick Sort
+
+This algorithm is a divide and conquer algorithm that was invented by Tony Hoare in 1959. It is a comparison-based algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+- Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/quicksort
+- Route: Data-Structures/tree/main/src/main/java/cova/datastructures/quicksort
+- Test cases:https://github.com/Carlos0smar/Data-Structures/blob/main/src/test/java/sortingtests/QuickSortTests.java
+
+### Bubble Sort
+
+This algorithm is a comparison-based algorithm that compares each pair of adjacent items and swaps them if they are in the wrong order.
+
+- Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/bubblesort
+- Route: Data-Structures/tree/main/src/main/java/cova/datastructures/bubblesort
+- Test cases:https://github.com/Carlos0smar/Data-Structures/blob/main/src/test/java/sortingtests/BubbleSortTests.java
+
+</details>
