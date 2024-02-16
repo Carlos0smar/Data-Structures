@@ -1,5 +1,6 @@
 package cova.datastructures;
 
+import cova.datastructures.Graphs.GraphRunner;
 import cova.datastructures.bubblesort.BubbleSortRunner;
 import cova.datastructures.interfaces.IRunner;
 import cova.datastructures.linkedlists.GeneralLinkedListsRunner;
@@ -27,8 +28,7 @@ public class RunnerFactory {
             case 4:
                 return new BinaryTreeRunner();
             case 5:
-                //TODO
-                return new NullRunner();
+                return new GraphRunner();
             case 6:
                 return new MergeSortRunner();
             case 7:
