@@ -16,7 +16,7 @@ The following are assingments where I applied data strutres
 <!-- ## Tower of hanoi -->
  On this assingment was applied the data struture stacks <br>
 
-Delayed Submission Note: the date of the last comment was made one day after the date of submission, this was done to correct the way to implement it. I did it manually and it was modified so that it has the algorithm to reach the result by itself.
+Delayed Submission Note: the date of the last commit was made one day after the date of submission, this was done to correct the way to implement it. I did it manually and it was modified so that it has the algorithm to reach the result by itself.
 
 - assignment link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/assignments/towersofhanoi
 
