@@ -160,7 +160,7 @@ Test cases for graph:
 
 ### Merge Sort
 
-This algorithm is a divide and conquer algorithm that was invented by John von Neumann in 1945. It is a comparison-based algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+This algorithm is a divide and conquer algorithm. It is a comparison-based algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
 
 - Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/mergesort
 - Route: Data-Structures/tree/main/src/main/java/cova/datastructures/mergesort
@@ -168,7 +168,7 @@ This algorithm is a divide and conquer algorithm that was invented by John von N
 
 ### Quick Sort
 
-This algorithm is a divide and conquer algorithm that was invented by Tony Hoare in 1959. It is a comparison-based algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+This algorithm is a divide and conquer algorithm. The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
 
 - Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/quicksort
 - Route: Data-Structures/tree/main/src/main/java/cova/datastructures/quicksort
