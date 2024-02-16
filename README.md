@@ -143,13 +143,13 @@ This data structure is a collection of nodes, where each node has a reference to
 
 Graph implementation:
 
-- Link:
-- Route:
+- Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/main/java/cova/datastructures/Graphs
+- Route: Data-Structures/tree/main/src/main/java/cova/datastructures/Graphs
 
 Test cases for graph:
 
-- Link:
-- Route:
+- Link: https://github.com/Carlos0smar/Data-Structures/tree/main/src/test/java/graphtests
+- Route: Data-Structures/tree/main/src/test/java/graphtests
 
 </details>
 
